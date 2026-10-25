@@ -4,46 +4,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyWebsite</title>
+  <title>MyWebsite | Home</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header class="navbar">
     <a class="logo" href="index.html">MyWebsite<span>.</span></a>
+
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="services.html">Services</a>
       <a href="contact.html">Contact</a>
-      <a href="login.html">Login / Signup</a>
+      <a class="login-link" href="login.html">Login / Signup</a>
     </nav>
   </header>
 
   <main class="hero">
     <div class="hero-content">
       <p class="tag">YOUR DIGITAL JOURNEY STARTS HERE</p>
+
       <h1>Build Something<br><span>Amazing.</span></h1>
-      <p>A modern website built by you using HTML, CSS and JavaScript.</p>
-      <a class="btn" href="services.html">Explore Services</a>
-      <a class="btn secondary" href="about.html">Learn More</a>
+
+      <p>
+        A modern website built by you using
+        HTML, CSS and JavaScript.
+      </p>
+
+      <div class="actions">
+        <a class="btn" href="services.html">Explore Services</a>
+        <a class="btn secondary" href="about.html">Learn More</a>
+      </div>
     </div>
+
     <div class="hero-card">
-      <h2>Ideas into Reality ✦</h2>
+      <div class="orb">✦</div>
+      <h2>Ideas into Reality</h2>
       <p>Your creativity. Your website. Your future.</p>
+      <div class="status">
+        <span></span> Website is running
+      </div>
     </div>
   </main>
 
   <section class="features">
     <h2>What You Can Do</h2>
+
     <div class="grid">
       <article class="feature">
         <h3>🎨 Beautiful Design</h3>
-        <p>Modern layouts and smooth animations.</p>
+        <p>Modern layouts, gradients and smooth animations.</p>
       </article>
+
       <article class="feature">
         <h3>📱 Responsive</h3>
-        <p>Designed for desktop and mobile screens.</p>
+        <p>A layout that adapts to desktop and mobile screens.</p>
       </article>
+
       <article class="feature">
         <h3>⚡ Interactive</h3>
         <p>Explore the pages using the navigation bar.</p>
@@ -51,6 +69,8 @@
     </div>
   </section>
 
-  <footer>© 2026 MyWebsite</footer>
+  <footer>
+    © 2026 MyWebsite. Built with HTML, CSS & JavaScript.
+  </footer>
 </body>
 </html>

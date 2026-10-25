@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | MyWebsite</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">MyWebsite<span>.</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login / Signup</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Contact Us</h1>
+    <p>Have a question? Send us a message.</p>
+
+    <form class="form">
+      <label>Your Name
+        <input type="text" name="name" placeholder="Enter your name" required>
+      </label>
+
+      <label>Email Address
+        <input type="email" name="email" placeholder="Enter your email" required>
+      </label>
+
+      <label>Your Message
+        <textarea name="message" rows="5" placeholder="Write your message" required></textarea>
+      </label>
+
+      <button type="submit">Send Message</button>
+      <p data-message aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer>© 2026 MyWebsite</footer>
+</body>
+</html>

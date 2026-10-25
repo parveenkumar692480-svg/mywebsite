@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      text-align: center;
+      padding: 20px;
+    }
+    .card {
+      max-width: 600px;
+      width: 100%;
+      padding: 50px 25px;
+      border: 1px solid #475569;
+      border-radius: 20px;
+      background: #ffffff10;
+    }
+    h1 { color: #38bdf8; }
+    button {
+      padding: 12px 24px;
+      border: 0;
+      border-radius: 8px;
+      background: #0284c7;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover { background: #0369a1; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Welcome to My Website</h1>
+    <p>My first professional website.</p>
+    <button onclick="alert('Website is working!')">
+      Get Started
+    </button>
+  </main>
+</body>
+</html>

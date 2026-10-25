@@ -4,47 +4,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Website</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      font-family: Arial, sans-serif;
-      color: white;
-      background: linear-gradient(135deg, #0f172a, #1e3a8a);
-      text-align: center;
-      padding: 20px;
-    }
-    .card {
-      max-width: 600px;
-      width: 100%;
-      padding: 50px 25px;
-      border: 1px solid #475569;
-      border-radius: 20px;
-      background: #ffffff10;
-    }
-    h1 { color: #38bdf8; }
-    button {
-      padding: 12px 24px;
-      border: 0;
-      border-radius: 8px;
-      background: #0284c7;
-      color: white;
-      cursor: pointer;
-    }
-    button:hover { background: #0369a1; }
-  </style>
+  <title>MyWebsite</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="card">
-    <h1>Welcome to My Website</h1>
-    <p>My first professional website.</p>
-    <button onclick="alert('Website is working!')">
-      Get Started
-    </button>
+  <header class="navbar">
+    <a class="logo" href="index.html">MyWebsite<span>.</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login / Signup</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-content">
+      <p class="tag">YOUR DIGITAL JOURNEY STARTS HERE</p>
+      <h1>Build Something<br><span>Amazing.</span></h1>
+      <p>A modern website built by you using HTML, CSS and JavaScript.</p>
+      <a class="btn" href="services.html">Explore Services</a>
+      <a class="btn secondary" href="about.html">Learn More</a>
+    </div>
+    <div class="hero-card">
+      <h2>Ideas into Reality ✦</h2>
+      <p>Your creativity. Your website. Your future.</p>
+    </div>
   </main>
+
+  <section class="features">
+    <h2>What You Can Do</h2>
+    <div class="grid">
+      <article class="feature">
+        <h3>🎨 Beautiful Design</h3>
+        <p>Modern layouts and smooth animations.</p>
+      </article>
+      <article class="feature">
+        <h3>📱 Responsive</h3>
+        <p>Designed for desktop and mobile screens.</p>
+      </article>
+      <article class="feature">
+        <h3>⚡ Interactive</h3>
+        <p>Explore the pages using the navigation bar.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer>© 2026 MyWebsite</footer>
 </body>
 </html>
